@@ -1,0 +1,74 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 30px;
+}
+section {
+  padding: 0 0;
+  height: 600px;
+}
+.container{
+  padding: 0 0;
+  margin: 0 0;
+} 
+.logo {
+  float: left;
+  line-height: 80px;
+  margin: 21px 0 0 0;
+  text-indent: -9999em;
+  width: 227px;
+  height: 50px;
+  color: #00ccff;
+}
+#bs-example-navbar-collapse-1 ul li a {
+  color: #039fc1;
+  margin-right: 30px;
+  font-weight: 700;
+  /* font-size: 16px; */
+  text-transform: uppercase;
+}
+.navbar-header a {
+  color: #039fc1;
+  margin-right: 30px;
+  font-weight: 700;
+  /* font-size: 16px; */
+  text-transform: uppercase;
+}
+.about {
+  height: 585px;
+  background-color: rgba(3, 159, 193, 0.85);
+  color: #fff !important;
+  overflow: hidden;
+  position: relative;
+  top: 20px;
+}
+.about h2 {
+  margin: 0;
+  font-size: 35px;
+  text-transform: uppercase;
+  padding-top: 150px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #fff !important;
+}
+.left h2 {
+  padding-top: 150px;
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #039FC1;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+
+
+
+#footer {
+  background: #0F444F;
+  color: #fff;
+  overflow: hidden;
+}
+#footer a {
+  color: #fff;
+}
