@@ -71,9 +71,42 @@ $(document).ready(function() {
     //         }
     //     }
     // })
-        // Instantiate MixItUp:
+            $("#ScrollToAbout").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#about").offset().top
+                }, 1000);
+            });
+            $("#ScrollToProcess").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#process").offset().top
+                }, 1000);
+            });
+            $("#ScrollToWork").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#work").offset().top
+                }, 1000);
+            });            
+            $("#ScrollToPricing").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#pricing").offset().top
+                }, 1000);
+            });
 
+            $("#ScrollToContact").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#contact").offset().top
+                }, 1000);
+            });
+    // Instantiate MixItUp:
     $('#Container').mixItUp();
+    // wow animation
+    new WOW().init();
+
+    // Scrollspy: Highlights the navigation menu items while scrolling.
+    $('body').scrollspy({
+        target: '.navbar-fixed-top',
+        offset: 51
+    })     
 
 
 
